@@ -44,6 +44,15 @@
     ]
   },
 
+  "src/services/*.coffee": {
+    "type": "service",
+    "alternate": "public/scripts/application.js",
+    "template": [
+      "angular.module 'application'",
+      "  .service '{}', class {camelcase}"
+    ]
+  },
+
   "src/application.coffee": {
     "type": "source",
     "alternate": "public/scripts/application.js",
