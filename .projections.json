@@ -19,7 +19,7 @@
   "src/components/*.styl": {
     "type": "style",
     "alternate": "public/stylesheets/application.css",
-    "template": [".{underscore|hyphenate}, [{underscore|hyphenate}]"]
+    "template": [".{underscore|hyphenate}, [{underscore|hyphenate}], [data-{underscore|hyphenate}]"]
   },
 
   "src/module.jade": {
