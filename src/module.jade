@@ -11,23 +11,24 @@ html(data-ng-app='application')
     script(src='/scripts/partials.js')
 
     body
-      h1. Failure Loading Application
+      noscript
+        h1. Failure Loading Application
 
-      div
-        p.
-          This application requires that your
-          browser JavaScript enabled. If you do
-          not know what that means, then it may
-          be time to upgrade your browser. Here
-          are some helpful links to get you
-          up-to-date:
+        div
+          p.
+            This application requires that your
+            browser JavaScript enabled. If you do
+            not know what that means, then it may
+            be time to upgrade your browser. Here
+            are some helpful links to get you
+            up-to-date:
 
-        ul
-          li: a(href="https://getfirefox.com") Firefox
-          li: a(href="https://google.com/chrome/") Chrome
+          ul
+            li: a(href="https://getfirefox.com") Firefox
+            li: a(href="https://google.com/chrome/") Chrome
 
-          //- Thanks for the massive URL, Microsoft. I didn't want my
-          //- 79-character lines, anyway...
-          li: a(
-              href="http://windows.microsoft.com/en-US/internet-explorer/download-ie"
-            ) Internet Explorer
+            //- Thanks for the massive URL, Microsoft. I didn't want my
+            //- 79-character lines, anyway...
+            li: a(
+                href="http://windows.microsoft.com/en-US/internet-explorer/download-ie"
+              ) Internet Explorer
