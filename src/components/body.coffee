@@ -3,7 +3,3 @@ angular.module 'application'
     scope: no
     restrict: 'E'
     templateUrl: '/body.html'
-
-    controller: ['$scope'].concat ($scope) ->
-      angular.extend $scope,
-        name: null
