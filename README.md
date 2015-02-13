@@ -1,15 +1,12 @@
-angular-glp
+Poltergeist
 ===========
 
-A simple Angular template for [GLP][glp].
+Developing
+----------
 
-
-Usage
------
-
-To use this project you need to install GLP. If you have ./node_modules/.bin in
-your $PATH environment variable then you can skip this step. Otherwise, install
-it globally with:
+To develop on this project you need to install GLP. If you have
+./node_modules/.bin in your $PATH environment variable then you can skip this
+step. Otherwise, install it globally with:
 
     npm install -g glp
 
@@ -17,7 +14,6 @@ Now install dependencies with npm and bower:
 
     bower install
     npm install
-
 
 You should be able to run a simple static server after installing dependencies.
 
