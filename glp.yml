@@ -45,7 +45,9 @@ plugins:
 files:
   scripts:
     /scripts/application:
+      - 'bower_components/codemirror/lib/codemirror.js'
       - 'bower_components/angular/angular.js'
+      - 'bower_components/angular-ui-codemirror/ui-codemirror.js'
       - 'src/application.coffee'
       - 'src/**/*.coffee'
 
@@ -54,6 +56,7 @@ files:
 
   stylesheets:
     /stylesheets/application:
+      - 'bower_components/codemirror/lib/codemirror.css'
       - 'src/module.styl'
       - 'src/components/*.styl'
 
