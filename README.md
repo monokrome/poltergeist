@@ -1,6 +1,8 @@
 Poltergeist
 ===========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/monokrome/poltergeist.svg)](https://greenkeeper.io/)
+
 Developing
 ----------
 
